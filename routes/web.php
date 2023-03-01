@@ -13,12 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-// new route
-
-Route::match(['get', 'head'], '/', function () {
+Route::get('/', function () {
     return view('welcome');
 });
+
+
