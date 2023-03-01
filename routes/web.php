@@ -17,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+// new route
+
 Route::match(['get', 'head'], '/', function () {
     return view('welcome');
 });
