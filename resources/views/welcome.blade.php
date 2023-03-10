@@ -76,6 +76,7 @@
                             </p>
 
                         </div>
+                        {{--  --}}
 
                         <div class="col-1-4 mobile-col-3-12 s-mobile-col-1-1" id="sec-benefit-item">
                             <img src="{{ asset('/assets/img/bnf-4.jpg') }}" alt="" width="100px" height="90px">
