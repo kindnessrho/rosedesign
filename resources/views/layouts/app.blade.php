@@ -19,67 +19,7 @@
 </head>
 
 <body class="bg-whiteBlue">
-    {{-- <nav class="fixed top-0 w-full p-2 bg-cta mb-4">
-        relative
-        <!-- Flex container -->
-        <div class="flex items-center container mx-auto justify-between ">
-            <!-- Logo -->
-            <div class="pt-2">
-                <li class="flex items-center">
-                    <a href="" class="text-white">
-                      <img src="{{ asset('/assets/img/logo-white.jpg') }}" alt="">
-                      <img src="{{ url('storage/img/logo-white.jpg') }}" alt="Example image">
-                    </a>
-                </li>
-            </div>
-            <!-- Menu Items -->
-            
-          
-            <div class="hidden space-x-6 md:flex">
-               
-                    <ul class="flex items-center justify-around w-56">
-                        <li class="w-6/12 ">
-                            <a href="#features" class="hover:text-darkBlue">Features</a>
-                        </li>
-                        <li class="w-4/12">
-                            <a href="#features" class="hover:text-darkBlue">Features</a>
-                        </li>
-                        <li class="w-4/12">
-                            <a href="#features" class="hover:text-darkBlue">Features</a>
-                        </li>
-                        <li class="w-4/12">
-                            <a href="#features" class="hover:text-darkBlue">Features</a>
-                        </li>
-                        <li class="w-4/12">
-                            <a href="#features" class="hover:text-darkBlue">Features</a>
-                        </li>
-                        <li class="w-4/12">
-                            <a href="#features" class="hover:text-darkBlue">Features</a>
-                        </li>
-                    </ul>
-               
-            </div>
-
-
-
-
-
-
-            <!-- Hamburger Icon -->
-            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
-                <span class="hamburger-top"></span>
-                <span class="hamburger-middle"></span>
-                <span class="hamburger-bottom"></span>
-            </button>
-        </div>
-
-  
-            
-       
-        <!-- Mobile Menu -->
-        
-        
-    </nav>  --}}
+    
 
     <header>
 
@@ -114,10 +54,105 @@
 
      
     
-        <footer id="footer" class="relative z-50 bg-gray-200">
-          
-           
-        </footer>
+    <footer class="footer-area" style="background-image: url(assets/img/footer-bg-02.png);">
+      
+        <div class="footer-top home-three">
+          <div class="container">
+            <div class="footer-top-border home-three">
+              <div class="row">
+               
+                <div class="col-1-4 mobile-col-6-12 tab-col-6-12 s-mobile-col-1-1 footer-pad-1">
+                  <div class="footer-widget widget">
+                    <div class="about_us_widget wow animate__animated animate__fadeInUp">
+                      <a href="index.html" class="footer-logo"> <img src="{{ asset('/assets/img/logo-white.jpg') }}" alt="footer logo"></a>
+                      
+                        <ul class="logo-list">
+                          <li><a href="#">Get In Touch</a></li>
+                          <li><a href="#">+234 901 7434 810</a></li>
+                          <li><a href="#">femcodeafrica@gmail.com</a></li>
+                          <li><a href="#">@femcodeafrica.org</a></li>
+                        </ul>
+                        <div class="social-links">
+                            <div class="row social-title">Connect With Us</div>
+                          <a class="social-i-one" href="#"><img src="{{ asset('/assets/img/facebook-logo.png') }}" alt=""></a>
+                          <a href="#"><img src="{{ asset('/assets/img/linkedin-logo.png') }}" alt=""></i></a>
+                          <a href="#"><img src="{{ asset('/assets/img/twitter-logo.png') }}" alt=""></a>
+                          
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-1-4 mobile-col-6-12 tab-col-6-12 s-mobile-col-1-1 footer-pad-2">
+                  <div class="footer-widget widget widget_nav_menu wow animate__animated animate__fadeInUp">
+                    <h4 class="widget-title">
+                      
+                      <span class="line">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot style-02"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                      </span>
+                    </h4>
+                    <ul class="contact_info_list style-01">
+                      <li><a href="#">FemCode Africa</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Achievements</a></li>
+                        <li><a href="#">Join The Community</a></li>
+                        <li><a href="#">Our Services</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-1-4 mobile-col-6-12 tab-col-6-12 s-mobile-col-1-1 footer-pad-2 footer-pad-3">
+                  <div class="footer-widget widget widget_nav_menu wow animate__animated animate__fadeInUp">
+                    <h4 class="widget-title">
+                      
+                      <span class="line">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot style-02"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                      </span>
+                    </h4>
+                    <ul>
+                      <li><a href="#">FemAcademy</a></li>
+                      <li><a href="#">Our Courses</a></li>
+                      <li><a href="#">Tuition Fee</a></li>
+                      <li><a href="#">Our Classes</a></li>
+                      <li><a href="#">E-Learning</a></li>
+                      <li><a href="#">Join the Waiting List</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-1-4 mobile-col-6-12 tab-col-6-12 s-mobile-col-1-1 footer-pad-2 footer-pad-3">
+                  <div class="footer-widget widget widget_nav_menu wow animate__animated animate__fadeInUp">
+                    <h4 class="widget-title">
+                     
+                      <span class="line">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot style-02"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                      </span>
+                    </h4>
+                    <ul>
+                      <li><a href="#">FemReach</a></li>
+                      <li><a href="#">Sponsor</a></li>
+                      <li><a href="#">Donate</a></li>
+                      <li><a href="#">FAQs</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </footer>
+      <!-- footer area end -->
     
     
 

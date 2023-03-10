@@ -11,14 +11,14 @@
         
             <main class="grid grid-pad">
                 
-                    <section style="margin-bottom: 700px;">
+                    <section class="hero">
                         <div class="container" id="home">
-                            <div class="col-5-12" id="sls">
+                            <div class="col-5-12 tab-col-6-12" id="sls">
                                 <div class="sales-msg" id="first">
                                     <img src="{{ asset('/assets/img/hero-vector.png') }}" alt="">
-                                    <h1>Your Female Tech Career
+                                    <h1>Your Female Tech Career <span> starts here</span>
                                         
-                                    <span> starts here</span>
+                                    
                                     </h1>
                         
                                     <button class="cta-style hero-btn">Join The Waiting List</button>
@@ -27,30 +27,9 @@
                             </div>
         
         
-                            <div id="sls-img" class="col-7-12">
+                            <div id="sls-img" class="col-7-12 tab-col-6-12">
                                 <img src="{{ asset('/assets/img/hero-image.png') }}" alt="">
-                            {{-- <div class="home-img">
-                                <img src="/img/photo1.png" alt="" class="house-pic">
-                    
-                                <div class="card">
-                                <div class="card-info">
-                    
-                                    <div class="card-title">
-                                    <div class="card-img"><img src="img/photo2.png" alt="" height="74"></div>
-                                    <div class="title-txt">
-                                        <p class="name">Alizar Webber</p>
-                                        <p class="role">Interior Designer</p>
-                                    </div>
-                                    </div>
-                    
-                                    <div class="description">
-                                    <h5>Designed in 2020 by Alizar Webber</h5>
-                                    </div>
-                                </div>
-                                </div>
-                    
-                    
-                            </div> --}}
+                            
             
                             </div>
                         </div>
@@ -71,7 +50,7 @@
                     </div>
 
                     <div class="" id="sec-benefit">
-                        <div class="col-1-4" id="sec-benefit-item">
+                        <div class="col-1-4 mobile-col-3-12 s-mobile-col-1-1" id="sec-benefit-item">
                             <img src="{{ asset('/assets/img/bnf-1.jpg') }}" alt="" width="100px" height="90px">
 
                             <p>
@@ -80,7 +59,7 @@
 
                         </div>
 
-                        <div class="col-1-4" id="sec-benefit-item">
+                        <div class="col-1-4 mobile-col-3-12 s-mobile-col-1-1" id="sec-benefit-item">
                             <img src="{{ asset('/assets/img/bnf-2.jpg') }}" alt="" width="100px" height="90px">
 
                             <p>
@@ -89,7 +68,7 @@
 
                         </div>
 
-                        <div class="col-1-4" id="sec-benefit-item">
+                        <div class="col-1-4 mobile-col-3-12 s-mobile-col-1-1" id="sec-benefit-item">
                             <img src="{{ asset('/assets/img/bnf-3.jpg') }}" alt="" width="100px" height="90px">
 
                             <p>
@@ -98,7 +77,7 @@
 
                         </div>
 
-                        <div class="col-1-4" id="sec-benefit-item">
+                        <div class="col-1-4 mobile-col-3-12 s-mobile-col-1-1" id="sec-benefit-item">
                             <img src="{{ asset('/assets/img/bnf-4.jpg') }}" alt="" width="100px" height="90px">
 
                             <p>
@@ -155,7 +134,7 @@
 
                         </div>
 
-                        <div class="col-1-4" id="sec-benefit-item">
+                        <div class="col-1-4 benefit-item-last" id="sec-benefit-item">
                             <h4>
                                 Courses
                             </h4>
@@ -181,7 +160,7 @@
 
                         </div>
 
-                        <div class="col-1-4" id="sec-benefit-item">
+                        <div class="col-1-4 benefit-item-last" id="sec-benefit-item">
                             <h4 class="hire">
                                 Hire From FemAcademy
                             </h4>
@@ -212,11 +191,11 @@
                             </h1>
                         </div>
                         
-                        <div id="left" class="col-6-12">
+                        <div id="left" class="col-6-12 tab-col-1-1">
                             <img src="{{ asset('/assets/img/mission-img.png') }}" alt="">
                         </div>
 
-                        <div class="col-6-12">
+                        <div class="col-6-12 tab-col-1-1">
                             <div class="statement">
                                 <p>
                                     Statistics have stated that there is a lot of gap in the ratio of women to men in tech in Africa. We at FemCode Africa believe that every female has all it takes to start and sustain a career in Tech.

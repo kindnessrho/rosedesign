@@ -174,14 +174,237 @@
 	margin-left: 8.33%
 }
 
-@media handheld, only screen and (max-width: 767px) {
+
+
+@media handheld, only screen and (min-width: 769px) and (max-width: 1024px){
+  
+
+ .tab-col-1-1 {
+	width: 100%;
+}
+
+ .tab-col-1-2, .tab-col-6-12 {
+	width: 50%;
+}
+
+
+.sales-msg {
+	width: 100%;
+}
+
+#sls-img> img {
+	width: 115%;
+	padding-top: 90px;
+}
+
+.hero{
+	margin-bottom: 70px;
+}
+
+.about-sec #sec-prg >p{
+	width: 100%;
+}
+
+#sec-benefit-item >p{
+	text-align: center;
+}
+
+#services-benefit #sec-benefit-item{
+	width: 40vw;
+}
+
+#services-benefit  .benefit-item-last{
+	margin-top: 10px;
+}
+
+.mission-sec .sec-title {
+	margin-left: 0px;
+	padding-bottom: 50px;
+}
+
+.mission-sec .statement {
+	padding: 0px;
+	text-align: center;
+}
+
+.mission-sec #left img {
+	display: flex;
+	justify-content: center;
+	width: 640px;
+	height: 553px;
+	margin: auto;
+}
+
+
+.faq-sec .sec-title {
+	padding-left: 0px;
+	text-align: center;
+}
+
+.faq-sec .faq-head p {
+	padding: 0px;
+	text-align: center;
+}
+
+.footer-area .footer-pad-3 {
+	padding-top: 50px;
+}
+
+
+.tab-col-1-3, .tab-col-4-12 {
+	width: 33.33%;
+}
+
+
+
+}
+
+
+
+@media handheld, only screen and (min-width: 360px) and (max-width: 540px){
+  
+
+ .s-mobile-col-1-1 {
+	width: 100%!important;
+}
+
+ .tab-col-1-1 {
+	width: 100%;
+}
+
+ .tab-col-1-2, .tab-col-6-12 {
+	width: 50%;
+}
+
+.sales-msg {
+	width: 100%;
+}
+
+#sls-img> img {
+	width: 110%;
+	padding-top: 50px;
+}
+
+.hero{
+	margin-bottom: 70px;
+}
+
+.about-sec {
+	padding-bottom: 100px;
+}
+
+.about-sec #sec-prg >p{
+	width: 100%;
+}
+
+#sec-benefit-item >p{
+	text-align: center;
+}
+
+#sec-benefit-item>img {
+	margin-bottom: 12px;
+}
+
+#sec-benefit-item>p {
+	margin-bottom: 40px;
+}
+
+#services-benefit #sec-benefit-item{
+	width: 40vw;
+}
+
+#services-benefit  .benefit-item-last{
+	margin-top: 10px;
+}
+
+.services-sec-title{
+	text-align: center;
+}
+
+#services-benefit #sec-benefit-item {
+	width: 100vw!important;
+	margin-top: 16px!important;
+	height: 100%!important;
+}
+
+#services-benefit #sec-benefit-item {
+	margin: 0px;
+}
+
+.mission-sec .sec-title {
+	margin-left: 0px;
+	padding-bottom: 50px;
+}
+
+.mission-sec .statement {
+	padding: 0px;
+	text-align: center;
+}
+
+.mission-sec #left img {
+	display: flex;
+	justify-content: center;
+	width: 640px;
+	height: 553px;
+	margin: auto;
+}
+
+.mission-sec #left img {
+	width: 300px!important;
+	height: 300px!important;
+}
+
+
+.faq-sec .sec-title {
+	padding-left: 0px;
+	text-align: center;
+}
+
+.faq-sec .faq-head p {
+	padding: 0px;
+	text-align: center;
+}
+
+.accordion-wrapper{
+	padding: 0px;
+}
+
+.accordion-wrapper .card .card-header {
+	padding: 0px;
+}
+
+.footer-area .footer-pad-2 {
+	padding-top: 0px;
+}
+
+.footer-area .footer-pad-3 {
+	padding-top: 0px!important;
+}
+
+
+.tab-col-1-3, .tab-col-4-12 {
+	width: 33.33%;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+@media handheld, only screen and (max-width: 768px) {
 	.grid {
 		width: 100%;
 		min-width: 0;
 		margin-left: 0;
 		margin-right: 0;
-		padding-left: 10px; /* grid-space to left */
-		padding-right: 10px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-10px=10px */
+		/*padding-left: 10px;  grid-space to left */
+		/*padding-right: 10px;  grid-space to right: (grid-space-left - column-space) e.g. 20px-10px=10px */
 	}
 
 	[class*='col-'] {
@@ -205,6 +428,54 @@
 		padding-right: 10px; /* column-space */
 		padding-bottom: 0;
 	}
+
+	.hero{
+		margin-bottom: 70px;
+	}
+
+	.about-sec #sec-prg >p{
+		width: 100%;
+	}
+
+	#sec-benefit-item >p{
+		text-align: center;
+	}
+
+	.mission-sec .sec-title {
+    margin-left: 0px;
+}
+
+.mission-sec #left img {
+	width: 640px;
+	height: 553px;
+}
+
+.mission-sec .statement {
+	 padding: 0px;
+	 text-align: center;
+}
+
+.faq-sec .sec-title {
+	padding-left: 0px;
+	text-align: center;
+}
+
+.faq-sec .faq-head p {
+	padding: 0px;
+	text-align: center;
+}
+
+	/*👉#services-benefit{
+		flex-wrap: wrap;
+	}👈*/
+
+	#services-benefit #sec-benefit-item{
+		width: 40vw;
+	}
+
+	.footer-area .footer-pad-3 {
+    padding-top: 50px;
+}
 
 	.mobile-col-1-1 {
 		width: 100%;
@@ -287,4 +558,75 @@
 		height: 0;
 	}
 }
+
+
+@media handheld, only screen and (max-width: 320px){
+
+	.sales-msg {
+		width: 100%;
+	}
+
+	#sls-img> img {
+		width: 110%;
+		padding-top: 50px;
+	}
+
+	.s-mobile-col-1-1 {
+    width: 100%!important;
+}
+
+#sec-benefit-item>img {
+	margin-bottom: 12px;
+}
+
+#sec-benefit-item>p {
+	margin-bottom: 40px;
+}
+
+
+
+.services-sec-title{
+	text-align: center;
+}
+
+#services-benefit #sec-benefit-item {
+	width: 100vw!important;
+	margin-top: 16px!important;
+	height: 100%!important;
+}
+
+#services-benefit #sec-benefit-item {
+	margin: 0px;
+}
+
+
+.mission-sec #left img {
+	width: 240px!important;
+	height: 240px!important;
+}
+	
+.accordion-wrapper{
+	padding: 0px;
+}
+
+.accordion-wrapper .card .card-header {
+	padding: 0px;
+}
+
+.footer-area .footer-pad-2 {
+	padding-top: 0px;
+}
+
+.footer-area .footer-pad-3 {
+	padding-top: 0px!important;
+}
+
+.widget {
+	margin-bottom: 30px;
+	padding: 0px 20px 30px 20px;
+}
+
+
+
+}	
 
